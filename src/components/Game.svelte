@@ -1,4 +1,4 @@
-<div class="aspect-square rounded-lg outline-default shadow-2xl shadow-gradient1 bg-gradient-to-br from-gradient2/80 to-gradient1/80 opacity-80 grid grid-cols-12 gap-6 p-8">
+<div class="w-4/5 aspect-square rounded-lg outline-default shadow-2xl shadow-gradient1 bg-gradient-to-br from-gradient2/80 to-gradient1/80 opacity-80 grid grid-cols-12 gap-6 p-8">
     <div class="col-span-7 h-full bg-primary2/75 row-span-4 rounded-lg shadow-lg">
     </div>
     <div class="col-span-5 rounded-lg backdrop-blur-lg bg-white/10 row-span-1 flex flex-col justify-around">

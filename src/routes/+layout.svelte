@@ -11,12 +11,14 @@
 	import 'remixicon/fonts/remixicon.css'
 
 	import Navbar from '../components/Navbar.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	export const ssr = true;
 </script>
-<div class="p-6 min-h-screen flex flex-col lg:mx-auto lg:p-16">
-	<div class="font-fira-code rounded outline-default bg-primary2 flex-grow  flex flex-col">
+<div class="min-h-screen flex flex-col mx-auto px-16 py-10 bg-primary3">
+	<div class="font-fira-code rounded-xl outline-default bg-primary2= flex-grow flex flex-col">
 		<Navbar/>
 		<slot/>
+		<Footer/>
 	</div>
 </div>
